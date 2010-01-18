@@ -1,0 +1,20 @@
+{
+  "name": "Hacker Sync",
+  "version": "1.0",
+  "description": "Integrates Delicious bookmarking with upvoting at Hacker News",
+  "permissions": [
+    "http://news.ycombinator.com/",
+    "http://delicious.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://news.ycombinator.com/*"],
+      "css": ["css/extension.css"],
+      "js": ["js/jquery-1.4.min.js", "content_script.js"]
+    }
+  ],
+  "icons": {
+    "48": "assets/yc_48.png",
+    "128": "assets/yc_128.png"
+  }
+}
