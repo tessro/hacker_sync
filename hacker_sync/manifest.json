@@ -1,6 +1,6 @@
 {
   "name": "Hacker Sync",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Integrates Delicious bookmarking with upvoting at Hacker News",
   "permissions": [
     "http://news.ycombinator.com/",
